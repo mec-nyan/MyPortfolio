@@ -8,7 +8,7 @@ export default function Terminal() {
       <div className='terminal'>
         <div className='titlebar'>
           <div className='decoration'></div>
-          <span className='termTitle'>Terminal : vim</span>
+          <span className='termTitle'>Terminal : Tech skills</span>
           <div className='decoration'>
             <span className='ball'></span>
             <span className='ball'></span>

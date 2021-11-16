@@ -5,6 +5,7 @@ import NavBar from '../Nav/Nav'
 import Entry from '../Entry/Entry'
 import Terminal from '../Terminal/Terminal'
 import Languages from '../Languages/Languages'
+import Education from '../Education/Education'
 import { useEffect } from 'react'
 
 
@@ -45,6 +46,10 @@ function App() {
       {/*<NavBar />*/}
 
       <Entry />
+
+      <div data-aos='fade-up'>
+        <Education />
+      </div>
 
       <div data-aos='fade-up'>
         <Terminal />
