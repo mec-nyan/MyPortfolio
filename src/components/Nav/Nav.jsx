@@ -1,5 +1,7 @@
 import './nav.css'
 import { FaBars, FaLinkedin, FaGithub, FaRegEnvelope } from 'react-icons/fa'
+import flag_es from './es.svg'
+import flag_uk from './gb.svg'
 
 
 export default function NavBar() {
