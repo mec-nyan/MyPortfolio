@@ -29,12 +29,12 @@ export default function Terminal() {
               <pre><b>  8</b>  Node</pre>
               <pre><b>  9</b>  React</pre>
               <pre><b> 10</b>  Redux</pre>
-              <pre><b> 11</b>  Mongodb</pre>
+              <pre><b> 11</b>  React-router</pre>
               <pre><b> 12</b>  Postgresql</pre>
               <pre><b> 13</b>  Sequelize</pre>
               <pre><b> 14</b>  </pre>
-              <pre><b> 15</b>  Postgresql</pre>
-              <pre><b> 16</b>  Postgresql</pre>
+              <pre><b> 15</b>  Mongodb</pre>
+              <pre><b> 16</b>  </pre>
             </code>
             <code>
               <pre><b> 17</b>  <i>Other:</i></pre>

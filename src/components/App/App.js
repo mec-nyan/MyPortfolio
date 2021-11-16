@@ -50,7 +50,7 @@ function App() {
         <Terminal />
       </div>
 
-      <div data-aos='fade-down' data-aos-duration={1500}>
+      <div data-aos='fade-up' data-aos-duration={1500}>
         <Languages />
       </div>
 
