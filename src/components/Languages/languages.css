@@ -1,0 +1,114 @@
+.langContainer 
+{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #7f7f7f;
+}
+
+.langContainer h2 
+{
+  font-weight: normal;
+  font-size: 2em;
+  margin: 20px;
+}
+
+.languageCards 
+{
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.langCard 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #7c6f91;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  min-width: 200px;
+  height: 350px;
+  margin: 20px;
+}
+
+.langCard h3 
+{
+  font-weight: normal;
+  font-size: 22px;
+  margin: 30px auto 10px;
+}
+
+.flag 
+{
+  width: 40px;
+  margin: auto;
+  opacity: 0.5;
+}
+
+.cardBottom, .cardTop
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.cardTop 
+{
+  height: 45%;
+}
+
+.cardBottom 
+{ 
+  background-color: #7c6f91;
+  background-image: linear-gradient(175deg, #7c6f91, #5d536c);
+  color: #2f2f2f;
+  height: 55%;
+}
+
+.cardBottom h2 
+{
+  font-size: 64px;
+  font-weight: normal;
+  line-height: 75px;
+  text-align: center;
+  height: 75px;
+  width: 100px;
+  margin: 20px auto 10px;
+  border: 2px solid #2f2f2f;
+}
+
+.spanish .cardBottom h2
+{
+  font-size: 44px;
+  line-height: 74px;
+  width: auto;
+  padding: 0 5px;
+  margin: 20px auto;
+}
+
+.cardBottom .underline 
+{ 
+  background-color: #2f2f2f;
+  height: 2px;
+  width: 40px;
+  margin: 10px;
+}
+
+.underline 
+{
+  width: 60px;
+  height: 1px;
+  background-color: #7c6f91;
+}

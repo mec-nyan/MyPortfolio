@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import NavBar from '../Nav/Nav'
 import Entry from '../Entry/Entry'
 import Terminal from '../Terminal/Terminal'
+import Languages from '../Languages/Languages'
 import { useEffect } from 'react'
 
 
@@ -42,10 +43,17 @@ function App() {
   return (
     <div className="App">
       {/*<NavBar />*/}
+
       <Entry />
+
       <div data-aos='fade-up'>
         <Terminal />
       </div>
+
+      <div data-aos='fade-down' data-aos-duration={1500}>
+        <Languages />
+      </div>
+
     </div>
   );
 }

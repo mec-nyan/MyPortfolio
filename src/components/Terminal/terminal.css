@@ -1,6 +1,5 @@
 .terminalContainer
 {
-  width: 100%;
   min-height: 100vh;
   background-color: transparent;
   display: flex;
@@ -13,6 +12,7 @@
 .terminal 
 {
   width: 80%;
+  max-width: 1024px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border: 2px solid #3f3f3f;
