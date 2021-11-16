@@ -4,7 +4,39 @@
   padding: 0px;
   width: 100vw;
   height: 100vh;
-  background-color: #282828;
-  background-image: linear-gradient(185deg, lightblue 0%, steelblue 50%, #282828 51%);
+  background-image: linear-gradient(175deg, #7c6f91 0%, #5d536c 55%, #1c1c1c 55.5%, transparent 57%);
   color: #7f7f7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.name 
+{
+  color: #3e3748;
+}
+
+.name h1
+{
+  font-weight: normal;
+  font-size: 42px;
+}
+
+.fullStack h2
+{
+  font-weight: normal;
+  font-size: 36px;
+  color: #9d93ac;
+}
+
+.fullStack small 
+{
+  color: #5f5f5f;
+}
+
+.name small, .fullStack small 
+{
+  font-size: 14px;
 }
