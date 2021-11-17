@@ -6,6 +6,7 @@ import Entry from '../Entry/Entry'
 import Terminal from '../Terminal/Terminal'
 import Languages from '../Languages/Languages'
 import Education from '../Education/Education'
+import Work from '../Work/Work'
 import { useEffect } from 'react'
 
 
@@ -55,7 +56,11 @@ function App() {
         <Terminal />
       </div>
 
-      <div data-aos='fade-up' data-aos-duration={1500}>
+      <div data-aos='fade-down'>
+        <Work />
+      </div>
+
+      <div data-aos='zoom-in'>
         <Languages />
       </div>
 

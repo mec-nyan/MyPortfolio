@@ -1,0 +1,109 @@
+.workContainer
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workCardTop, .workCardBottom 
+{
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workCardTop
+{
+  background-color: #7c6f91;
+  justify-content: flex-end;
+}
+
+.workCardBottom 
+{
+  background-color: #2f2f2f;
+  justify-content: flex-start;
+}
+
+.workContent 
+{
+  min-width: 80%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workCardTop .workContent 
+{
+  background-color: #2f2f2f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  justify-content: space-evenly;
+  color: #7f7f7f;
+  min-height: 30vh;
+}
+
+.workCardBottom .workContent 
+{ 
+  background-color: #7c6f91;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  justify-content: flex-start;
+  min-height: 40vh;
+}
+
+.workGroup
+{
+  margin: 20px;
+}
+
+.workGroup h4 
+{
+  font-weight: normal;
+  font-size: 1.4em;
+  margin: 20px 0;
+}
+
+.workGroup h5 
+{
+  font-weight: normal;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.workGroup ul
+{
+  list-style: none;
+}
+
+.workGroup ul li 
+{
+  padding: 5px 20px;
+}
+.title 
+{
+  display: inline-block;
+  font-size: 2em;
+  color: #2f2f2f;
+  margin: auto;
+  border: 2px solid #2f2f2f;
+  padding: 10px 20px;
+}
+
+.workCardTop .workContent h3 
+{
+  font-weight: normal;
+  font-size: 1.8em;
+  border-bottom: 1px solid #7f7f7f;
+  padding: 5px;
+  text-align: center;
+}
+.workCardTop .workContent h4 
+{
+  font-weight: normal;
+  font-size: 1.4em;
+}
