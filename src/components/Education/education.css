@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*
   background-image: repeating-linear-gradient(
     to bottom,
     transparent 0px,
@@ -31,6 +32,8 @@
     #4f4f4f 0px,
     transparent 1px,
     transparent 49px);
+    */
+  background-image: url('../../dot4x4.png');
 }
 
 .education 

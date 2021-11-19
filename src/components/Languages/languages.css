@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('../../times.png');
 }
 
 .frame 
@@ -79,6 +80,7 @@
 .cardTop 
 {
   height: 45%;
+  background-color: #2f2f2f;
 }
 
 .cardBottom 

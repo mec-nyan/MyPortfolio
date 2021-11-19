@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .workCardTop, .workCardBottom 
@@ -19,6 +21,7 @@
 .workCardTop
 {
   background-color: #7c6f91;
+  background-image: linear-gradient(to bottom right, #7c6f91, #5d536c);
   justify-content: flex-end;
 }
 
@@ -89,9 +92,11 @@
   display: inline-block;
   font-size: 2em;
   color: #2f2f2f;
+  background-color: transparent;
   margin: auto;
-  border: 2px solid #2f2f2f;
   padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px #3e3748, -3px -3px 6px #beb7c87f;
 }
 
 .workCardTop .workContent h3 
