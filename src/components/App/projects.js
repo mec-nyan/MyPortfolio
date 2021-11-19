@@ -1,5 +1,5 @@
 const mecGames = (
-  <div className='templateContainer'>
+  <div className='templateContainer' data-aos='fade-up'>
     <h2 className='templateTitle' data-aos='slide-right'>Mec Games</h2>
     <div className='templateUnderline' data-aos='slide-left'></div>
     <h3 className='templateSubtitle'>A videogames catalogue</h3>
@@ -9,9 +9,17 @@ const mecGames = (
       <p>This project was developed using the following technologies:</p>
       <h4>Front end</h4>
       <ul>
-        <li>React, Redux, React-router</li>
-        <li>second item</li>
-        <li>yet another item</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>React-router</li>
+        <li>Styled with CSS only</li>
+      </ul>
+      <h4>Back end</h4>
+      <ul>
+        <li>PostgreSQL</li>
+        <li>Sequelize</li>
+        <li>Express.js</li>
+        <li>RESTful API <b>(RAWG)</b></li>
       </ul>
     </article>
   </div>)
