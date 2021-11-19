@@ -44,7 +44,6 @@
 .codeContainer code 
 {
   display: block;
-  font-family: 'hack', monospace;
   font-size: 18px;
   min-width: 50%;
   color: #7f7f7f;

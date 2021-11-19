@@ -79,7 +79,7 @@ const myPortfolio = (
     <div className='templateUnderline' data-aos='slide-left'></div>
     <h3 className='templateSubtitle'>My presentation card</h3>
     <article>
-      <p>This SPA is entirely developed in React. Part resume, part portfolio, here you can what I've learned at <b>Soy Henr</b> and some of my skills in practice.</p>
+      <p>This SPA is entirely developed in React. Part resume, part portfolio, here you can see what I've learned at <b>Soy Henr</b> and some of my skills in practice.</p>
       <p>This project was developed using the following technologies:</p>
       <h4>Front end</h4>
       <ul>

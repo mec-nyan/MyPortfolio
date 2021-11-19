@@ -19,7 +19,7 @@ export default function Portfolio({ image, description, extUrl, flipped }) {
       <div className='imgContainer'>
         <div className='bgImg'></div>
         <img src={image} alt='Mec Games' />
-        <a href={extUrl} rel='noreferrer'>Visit <FiExternalLink /></a>
+        {extUrl ? <a href={extUrl} rel='noreferrer' target='_blank'>Visit <FiExternalLink /></a> : null}
       </div>
 
       <div className='projectDescription'>

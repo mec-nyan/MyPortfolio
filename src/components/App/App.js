@@ -12,11 +12,17 @@ import Portfolio from '../Portfolio/Portfolio'
 
 import mecGamesHome from '../img/mecGamesHome.png'
 import mecGamesMain from '../img/mecGamesMain.png'
-import waveMusic from '../img/waveMusicHome.png'
-import weatherApp from '../img/weatherApp.png'
-import { mecGames } from './projects'
+import waveMusicHome from '../img/waveMusicHome.png'
+import weatherAppHome from '../img/weatherApp.png'
+import portfolioHome from '../img/portfolio.png'
+import { mecGames, waveMusic, weatherApp, myPortfolio } from './projects'
 
 import { useEffect } from 'react'
+
+
+const urlWaveMusic = 'https://proyecto-grupal-18c81.web.app'
+const urlWeatherApp = 'https://whatever-the-weather-e0062.web.app'
+const urlMecGames = 'https://proyecto-individual-videogames.web.app'
 
 
 function App() {
@@ -70,7 +76,19 @@ function App() {
       </div>
 
       <div data-aos='fade-up'>
-        <Portfolio image={mecGamesHome} title='Mec Games' description={mecGames} />
+        <Portfolio image={mecGamesHome} extUrl={urlMecGames} description={mecGames} flipped={false} />
+      </div>
+
+      <div data-aos='fade-up'>
+        <Portfolio image={waveMusicHome} extUrl={urlWaveMusic} description={waveMusic} flipped={true} />
+      </div>
+
+      <div data-aos='fade-up'>
+        <Portfolio image={weatherAppHome} extUrl={urlWeatherApp} description={weatherApp} flipped={false} />
+      </div>
+
+      <div data-aos='fade-up'>
+        <Portfolio image={portfolioHome} extUrl={false} description={myPortfolio} flipped={true} />
       </div>
 
       <div data-aos='zoom-in'>

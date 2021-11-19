@@ -5,11 +5,17 @@
   flex-direction: row;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+}
+
+.flipped 
+{
+  flex-direction: row-reverse;
 }
 
 .imgContainer
 {
-  height: 100vh;
+  min-height: 100vh;
   width: 50%;
   overflow: hidden;
   background-color: #7c6f91;
@@ -123,7 +129,7 @@
 
 @media screen and (max-width: 750px)
 {
-  .pfContainer
+  .pfContainer, .flipped
   {
     flex-direction: column;
   }
