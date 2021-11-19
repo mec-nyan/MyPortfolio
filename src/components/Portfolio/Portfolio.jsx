@@ -2,9 +2,10 @@ import './portfolio.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import { FiExternalLink } from 'react-icons/fi'
 
 
-export default function Portfolio({ image, description, flipped }) {
+export default function Portfolio({ image, description, extUrl, flipped }) {
   // Initialize AOS
   useEffect(() => {
     Aos.init({
@@ -18,6 +19,7 @@ export default function Portfolio({ image, description, flipped }) {
       <div className='imgContainer'>
         <div className='bgImg'></div>
         <img src={image} alt='Mec Games' />
+        <a href={extUrl} rel='noreferrer'>Visit <FiExternalLink /></a>
       </div>
 
       <div className='projectDescription'>
