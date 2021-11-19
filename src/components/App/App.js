@@ -1,12 +1,21 @@
 import './App.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+
 import NavBar from '../Nav/Nav'
 import Entry from '../Entry/Entry'
 import Terminal from '../Terminal/Terminal'
 import Languages from '../Languages/Languages'
 import Education from '../Education/Education'
 import Work from '../Work/Work'
+import Portfolio from '../Portfolio/Portfolio'
+
+import mecGamesHome from '../img/mecGamesHome.png'
+import mecGamesMain from '../img/mecGamesMain.png'
+import waveMusic from '../img/waveMusicHome.png'
+import weatherApp from '../img/weatherApp.png'
+import { mecGames } from './projects'
+
 import { useEffect } from 'react'
 
 
@@ -58,6 +67,10 @@ function App() {
 
       <div data-aos='fade-down'>
         <Work />
+      </div>
+
+      <div data-aos='fade-up'>
+        <Portfolio image={mecGamesHome} title='Mec Games' description={mecGames} />
       </div>
 
       <div data-aos='zoom-in'>

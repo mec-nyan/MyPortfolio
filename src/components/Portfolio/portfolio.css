@@ -1,0 +1,88 @@
+.pfContainer
+{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+
+.imgContainer
+{
+  height: 100vh;
+  width: 50%;
+  overflow: hidden;
+  background-color: #7c6f91;
+  background-image: linear-gradient(to bottom right, #7c6f91, #5d536c);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bgImg
+{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url('../img/whiteCross.png');
+  opacity: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.imgContainer img
+{
+  height: 80%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+  border-radius: 34px;
+  transform: rotate(-2deg);
+}
+
+.projectDescription
+{
+  width: 50%;
+  box-sizing: border-box;
+  color: #7f7f7f;
+}
+
+.templateContainer
+{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.templateTitle
+{
+  font-size: 2em;
+  font-weight: normal;
+  width: content;
+  padding: 10px;
+}
+
+.templateUnderline
+{
+  width: 100px;
+  height: 4px;
+  background-color: #7c6f91;
+}
+
+.templateSubtitle
+{
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 30px;
+}
+
+.templateContainer article
+{
+  background-color: #3f3f3f;
+}
