@@ -34,6 +34,7 @@
     transparent 49px);
     */
   background-image: url('../../dot4x4.png');
+  background-position: center top;
 }
 
 .education 
