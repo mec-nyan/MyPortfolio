@@ -2,16 +2,15 @@ import './App.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import NavBar from '../Nav/Nav'
 import Entry from '../Entry/Entry'
 import Terminal from '../Terminal/Terminal'
 import Languages from '../Languages/Languages'
 import Education from '../Education/Education'
 import Work from '../Work/Work'
 import Portfolio from '../Portfolio/Portfolio'
+import Contact from '../Contact/Contact'
 
 import mecGamesHome from '../img/mecGamesHome.png'
-import mecGamesMain from '../img/mecGamesMain.png'
 import waveMusicHome from '../img/waveMusicHome.png'
 import weatherAppHome from '../img/weatherApp.png'
 import portfolioHome from '../img/portfolio.png'
@@ -109,6 +108,10 @@ function App() {
 
       <div data-aos='zoom-in'>
         <Languages />
+      </div>
+      
+      <div data-aos='fade-up'>
+        <Contact />
       </div>
 
     </div>
