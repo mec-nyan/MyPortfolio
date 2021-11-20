@@ -52,6 +52,22 @@ function App() {
           behavior: 'smooth',
         })
         break
+      case 'u':
+      case 'U':
+        window.scrollBy({
+          top: window.innerHeight,
+          left: 0,
+          behavior: 'smooth',
+        })
+        break
+      case 'i':
+      case 'I':
+        window.scrollBy({
+          top: -window.innerHeight,
+          left: 0,
+          behavior: 'smooth',
+        })
+        break
       default:
         break
     }

@@ -47,7 +47,7 @@ const waveMusic = (
         <li>Express.js</li>
         <li>Our own RESTful API</li>
       </ul>
-      <p>The app was deployed via <b>Firebase</b> (front end) and <b>Heroku</b> (back end).</p>
+      <small>The app was deployed via <b>Firebase</b> (front end) and <b>Heroku</b> (back end).</small>
     </article>
   </div>)
 
@@ -75,7 +75,7 @@ const weatherApp = (
 
 const myPortfolio = (
   <div className='templateContainer' data-aos='fade-up'>
-    <h2 className='templateTitle' data-aos='slide-right'>Resume / Portfolio</h2>
+    <h2 className='templateTitle' data-aos='slide-right'>Resume & Portfolio</h2>
     <div className='templateUnderline' data-aos='slide-left'></div>
     <h3 className='templateSubtitle'>My presentation card</h3>
     <article>

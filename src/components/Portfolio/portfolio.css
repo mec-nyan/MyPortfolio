@@ -41,9 +41,9 @@
 
 .imgContainer img
 {
-  height: 75%;
+  max-height: 75%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
-  border-radius: 34px;
+  border-radius: 16%/7%;
   z-index: 99;
 }
 
@@ -136,5 +136,13 @@
   .imgContainer, .projectDescription
   {
     width: 100%;
+  }
+  .templateContainer article
+  {
+    margin: 40px 10px;
+  }
+  .imgContainer img
+  {
+    max-width: 60%;
   }
 }
