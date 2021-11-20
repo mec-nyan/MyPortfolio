@@ -3,16 +3,18 @@ import {
   FaLinkedin,
   FaGithub,
   FaRegEnvelope,
-  FaReact
+  FaReact,
+  FaHeart,
+  FaCopyright
 } from 'react-icons/fa'
 import mecNyan from '../img/mec-nyan.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-const urlGithub = ''
-const urlLinkedin = ''
-const urlMail = ''
+const urlGithub = 'https://github.com/mec-nyan'
+const urlLinkedin = 'https://linkedin.com/in/mariano-eloy-collantes'
+const urlMail = 'marianoraspberrypi@gmail.com'
 const urlTorre = ''
 
 
@@ -34,10 +36,32 @@ export default function Contact() {
       <div data-aos='fade-left' className='contactUnderline'></div>
 
       <div className='linkContainer'>
-        <div className='ballLink'><FaGithub /></div>
-        <div className='ballLink'><FaLinkedin /></div>
-        <div className='ballLink'><FaRegEnvelope /></div>
+        <div className='eachLink'>
+          <a href={urlGithub} rel='noreferred' target='_blank'>
+            <div className='ballLink'><FaGithub /></div>
+          </a>
+          <p>Github</p>
+        </div>
+        <div className='eachLink'>
+          <a href={urlLinkedin} rel='noreferred' target='_blank'>
+            <div className='ballLink'><FaLinkedin /></div>
+          </a>
+          <p>Linkedin</p>
+        </div>
+        <div className='eachLink'>
+          <a href={`mailto:${urlMail}`} rel='noreferred' target='_blank'>
+            <div className='ballLink'><FaRegEnvelope /></div>
+          </a>
+          <p>e-mail</p>
+          <small className='darker'>marianoraspberrypi@gmail.com</small>
+        </div>
       </div>
+
+      <div className='footerSeparator'></div>
+      <footer>
+        <small>Made with <FaHeart /> by Mariano Eloy Macri Collantes</small>
+        <small><code>&lt; mec-nyan /&gt;</code> <FaReact /> november 2021</small>
+      </footer>
 
     </div>
   )
